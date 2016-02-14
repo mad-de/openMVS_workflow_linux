@@ -2,10 +2,11 @@
 A simple python workflow for [openMVS](https://github.com/cdcseacave/openMVS) 
 
 #Usage example
-## Getting the required file to import
-get the [OpenMVG tutorial files](https://github.com/openMVG/ImageDataset_SceauxCastle) and copy them into your software/SfM/ folder in your [openMVG](https://github.com/openMVG/openMVG) Build.
+## Getting the required sfm_data.json file to import
+Make sure [openMVS](https://github.com/cdcseacave/openMVS) and [openMVG](https://github.com/openMVG/openMVG) are built and linked according to [the build instrcutions](https://github.com/cdcseacave/openMVS/blob/master/BUILD.md#linux-compilation)
+Get the [OpenMVG tutorial files](https://github.com/openMVG/ImageDataset_SceauxCastle) and copy them into your software/SfM/ folder in your openMVG Build.
 Run the tutorial_demo.py file in software/sfm/ (~ python tutorial_demo.py)
-We will use the resulting sfm_data.json in folder /ImageDataset_SceauxCastle/images_out/
+We will use the resulting sfm_data.json in the folder /ImageDataset_SceauxCastle/images_out/reconstruction_global/
 
 ## Running the script
 ```
