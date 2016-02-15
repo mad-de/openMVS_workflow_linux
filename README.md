@@ -12,7 +12,7 @@ We will use the resulting sfm_data.json in the folder /ImageDataset_SceauxCastle
 ```
 ~ git clone https://github.com/mad-de/openMVS_workflow_linux.git
 ~ cd openMVS_workflow_linux
-~ home=~ && python workflow_openMVS.py input_file="$home/openMVG_build/software/SfM/ImageDataset_SceauxCastle/images_out/reconstruction_global/sfm_data.json" output_dir="$home/openMVG_build/software/SfM/ImageDataset_SceauxCastle/images_out/SVM_out/" 
+~ home=~ && python workflow_openMVS.py input_file="$home/openMVG_build/software/SfM/ImageDataset_SceauxCastle/images_out/reconstruction_global/sfm_data.json" output_dir="$home/openMVG_build/software/SfM/ImageDataset_SceauxCastle/images_out/SVM_out/" use_densify="ON" use_refine="ON"
 ```
 
 ## Costumize
